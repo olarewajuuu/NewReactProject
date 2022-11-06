@@ -1,0 +1,22 @@
+.contianer{
+    width: 500px;
+    height: 300px;
+    border: solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contianer .col{
+    display: flex;
+    gap: 100px;
+
+}
+.contianer img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.contianer .profile{
+    margin: -20px 0px 0px 0px ;
+}

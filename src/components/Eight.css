@@ -1,0 +1,20 @@
+.group{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.group .group1 .form-group{
+    width: 25%;
+}
+.group .group2 .form-group{
+    width: 25%;
+}
+
+form button{
+    width: 50%;
+}

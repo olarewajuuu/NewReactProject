@@ -1,0 +1,20 @@
+.box-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.box{
+    width: 300px;
+
+    box-shadow: 1px 2px 3px;
+    padding: 5px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

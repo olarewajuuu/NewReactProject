@@ -1,0 +1,33 @@
+.wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.pro-card{
+    width: 400px;
+    margin: 20px auto;
+
+
+
+}
+
+.pro-card img{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.pro-card .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-card img:hover{
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+  
+}
